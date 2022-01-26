@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bowlby+One&family=Oxygen:wght@700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+h1{
+    font-size: 20vh;
+    text-align: center;
+
+    font-family: 'Bebas Neue';
+    background: #68B7BF;
+    background: -webkit-linear-gradient(top left, #68B7BF, #9606C3);
+    background: -moz-linear-gradient(top left, #68B7BF, #9606C3);
+    background: linear-gradient(to bottom right, #68B7BF, #9606C3);
+    background-clip: text;  
+    -webkit-background-clip: text;  
+    -moz-background-clip: text;  
+    -moz-text-fill-color: transparent;  
+    -webkit-text-fill-color: transparent;
+}
+
+.contact{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img{
+    width: 5vh;
+}
